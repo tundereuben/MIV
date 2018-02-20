@@ -1,0 +1,404 @@
+/*Styling the body to fix a background*/
+body{
+    font-family: Arvo, serif;
+    background: #f5f5f5;
+/*    color: #585858 ;*/
+}
+
+/*Navabar styling*/
+.navbar {
+    background: #990000; 
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    padding: 5px 10px;
+    background: #990000;
+}
+.navbar-nav ul {
+    background: #990000;
+}
+
+.navbar-nav li a{
+    color: #fff;
+}
+
+.navbar-nav li a:hover{
+    color: #990000;
+    background: white;
+}
+
+.navbar-nav .active a{
+    color: #990000;
+    background: white;
+}
+
+.underline{
+    border-bottom: 2px #fff solid;
+}
+.navbar .navbar-toggle .icon-bar{
+    background-color: white;
+}
+
+/*Logo Styling*/
+.logo{
+/*    width: 30px;*/
+    height: 30px;
+    padding-left: 50px;
+    margin: 0;
+}
+
+
+/*grey background*/
+.white {
+/*    margin: 20px 0 20px 0;*/
+    padding: 5px;
+    text-align: center;
+/*    background: #ccc;*/
+}
+
+.row .col-sm-3 img{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+
+.grey{
+    margin:0px 0px;
+    padding: 30px 0px;
+    background: #000 url(images/bg-video.jpg) no-repeat fixed center;
+}
+
+.events, .missions{
+    margin: auto;
+    line-height: 35px;
+    text-align: center;
+}
+
+.missions{
+    background:#00688b;
+    border: solid 1px #ccc;
+    padding: 30px 0;
+    margin: 0px 0;
+    color: white;
+}
+
+.missions h3{
+    color:  #990000;
+/*    font-weight: bold;*/
+}
+.missions p{
+    text-align: justify;
+}
+
+.events {
+    background: #990000 url('images/p.png') center fixed;
+    min-height: 400px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.events .btn{
+    background: #990000;
+    color: #fff;
+}
+
+.events div h3{
+    text-align: center;
+}
+
+ .btn{
+    margin: 30px 0;
+     background: #990000;
+     width: 200px;
+     border: none;
+}
+
+
+/*Connect with us*/
+.connect{
+    text-align: center;
+    background: url(images/continents-2660928_1920.jpg) repeat fixed center;
+/*    background-color: blue;*/
+    color: white;
+    padding: 30px 50px;
+    margin: 1px 0px;
+}
+
+.connect img{
+    border-radius: 100%;
+    margin: 20px;
+    width: 200px;
+    border: 0px;
+}
+
+.connect a:{
+    color: white;
+}
+
+
+/*footer*/
+footer{
+    background-color:#494444;
+    color: white;
+    padding: 30px 100px;
+}
+
+footer .row p{
+    padding: 5px 0;
+}
+footer a{
+    color: #fff;
+}
+
+
+footer img{
+    margin: 0 10px;
+}
+
+.show-register{
+    display: none;
+    color: #990000;
+}
+
+/*ABOUT PAGE now MINISTRY*/
+.about {
+    background: url(images/leadershipcenter.jpg)  fixed;
+    text-align: center;
+    color:#fff;
+    padding: 50px;
+    min-height: 200px;
+/*    color: #990000; */
+}
+
+.about h1{
+    color: #303030;
+    padding: 20px 0;
+}
+.vision{
+    margin: 30px;
+    padding: 10px;
+    line-height: 35px;
+    border-bottom: solid 1px #ccc;
+}
+
+.vision h3{
+    color: #990000;
+    margin-top: 0px;
+}
+.vision img{
+    float: right;
+    padding: 0 20px;
+}
+
+/*MISSION PAGE*/
+.mission-top{
+    background: url(images/missions.png) fixed;
+    text-align: center;
+    color:#fff;
+    padding: 100px;
+    height: 300px
+}
+.mission{
+    text-align: center;
+    padding: 70px;
+    background: url('images/divine%20well.png') center center fixed no-repeat;
+    min-height: 300px;
+}
+
+.mission h4{
+    line-height: 45px;
+}
+
+
+/*REAWAKENING*/
+.reawakening{
+    margin: 30px;
+    padding: 10px;
+    line-height: 35px;
+    border-bottom: solid 1px #ccc;
+    
+}
+
+.reawakening-top h2{
+    color: #303030;
+}
+
+.reawakening h3{
+    color:  #990000; 
+    margin-top: 0;
+}
+
+.reawakening img{
+    float: right;
+    padding: 0 20px;
+}
+
+
+
+
+/*WATCH*/
+.watch{
+/*    margin: 10px;*/
+    padding: 10px;
+    background: url("https://www.phc-law.com/wp-content/uploads/2013/06/Background-opera-speeddials-community-web-simple-backgrounds.jpg") center fixed;
+}
+
+.video-list{
+    margin: 0px;
+    padding: 50px 0;
+    background: #990000;
+}
+
+.video-list h4 a{
+    color: #990000;
+/*    font-weight: bold;*/
+}
+.video-list .panel-collapse {
+    text-align: center;
+}
+
+.panel-collapse img{
+/*    height: 100px;*/
+
+}
+
+/*PARTNERSHIP*/
+.partnership{
+    margin: 50px 5px;
+    border-bottom: solid 1px #ccc;
+    padding: 10px;
+    text-align: justify;
+}
+
+.partnership h3{
+     color: #990000;
+    margin-top: 0;
+}
+
+.partnership img{
+/*    width: 280px;*/
+    padding-bottom: 10px;
+    
+}
+
+
+.partnership-2{
+    margin: 0px;
+    min-height: 300px;
+    padding: 50px 0;
+    background: #990000 url('images/p.png') center fixed;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+/*CONTACT*/
+.contact{
+    margin: 50px 0;
+    text-align: center;
+}
+
+.contact h3, .contact label{
+    color: #990000;
+}
+
+
+.contact .col-sm-6{
+    border: solid 1px #990000;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.contact .btn{
+    width: 200px;
+    color: #fff;
+}
+
+.offices{
+    text-align: center;
+    border-top: solid 1px #ccc;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 760px) {
+    body {
+/*        background-color: lightblue;*/
+    }
+    .logo{
+    /*    width: 30px;*/
+        height: 20px;
+        width: 200px;
+        padding-left: 0px;
+        margin: 0;
+    }
+    
+    .underline{
+        border: none;
+    }
+    .row .dont-show{
+    display: none;
+    }
+    
+    .show-register{
+        display: block;
+        margin:20px 10px;
+        padding: 10px 0 0 0 ;
+        text-align: center;
+        color:#990000;
+    }
+    
+    .connect{
+        text-align: center;
+        padding: 20px;
+
+    }
+    
+    .connect img{
+    width: 100px;
+    } 
+    
+    .reawakening{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .reawakening h2{
+        font-size: 1.2em;
+    }
+    
+    .reawakening p{
+        text-align: left;
+        padding: 0 10px;
+    }
+    .reawakening img{
+    width: 100%;
+        margin: 10px 0;
+    }
+    
+    
+    footer{
+    background-color:#494444;
+    color: white;
+    padding: 30px 20px;
+    }
+    
+/*    About page*/
+    .vision {
+    border-bottom: solid 1px #ccc;
+    margin: 0px;
+    padding: 0;
+    } 
+    
+    .vision img{
+/*    display: none;*/
+        padding: 10px;
+    }
+}
+
+
